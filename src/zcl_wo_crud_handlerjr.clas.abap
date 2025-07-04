@@ -70,7 +70,7 @@ CLASS zcl_wo_crud_handlerjr IMPLEMENTATION.
            rv_valid = abap_true.
         ELSE.
            rv_message = |Orden { iv_workorder_id }, NO FUE insertada correctamente EN LA TABLA DE ORDENES|.
-           rv_valid = abap_true.
+           rv_valid = abap_false.
         ENDIF.
     ENDMETHOD.
 
